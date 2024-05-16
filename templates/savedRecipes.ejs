@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Random Recipe Generator</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div>
+		<h1>Saved Recipes</h1>
+		<hr>
+		<a href="/">Return</a>
+
+		<div><%- display %></div>
+
+		<form action="/deleteAll" method="post">
+			<input type="submit" value="Delete All" class="button" id="deleteAllButton">
+		</form><br>
+
+		<hr>
+		<a href="/">Return</a>
+	</div>
+    
+</body>

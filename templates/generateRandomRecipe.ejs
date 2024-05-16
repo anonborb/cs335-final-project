@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Random Recipe Generator</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div>
+		<h2>Recipe Name: <%- name %></h2>
+		Recipe ID: <%- recipe_id %>
+		<div><%- image %></div>
+		Credits: <%- source %><br>
+		Source Url: <%- sourceUrl %>
+		
+		<br>
+		<input type="submit" value="Generate Again"  onClick="window.location.reload()" class="button">
+		<br><br>
+		<form action="/saveRecipe/<%= recipe_id %>" method="post">
+			<input type="submit" value="Save Recipe" class="button">
+		</form>
+
+		<hr>
+		<a href="/">Return</a>
+	</div>
+    
+</body>

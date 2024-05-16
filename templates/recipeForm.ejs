@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Random Recipe Generator</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <div>
+        <h2>Include Any Dietary Restrictions</h2>
+        Type 'none' if no restrictions needed. <br><br>
+        <form action="/randomRecipeGenerator" action="get">
+            Must Exclude:
+            <input type="text" name="exclude_tags" placeholder="eg. dairy, gluten, meat" class="textbox">
+
+            <input type="submit" value="Generate" class="button">
+        </form>
+
+        <hr>
+        <a href="/">Return</a>
+    </div>
+    
+</body>

@@ -6,7 +6,7 @@ Group Members: Hylene Wu (hwu12345)
 
 App Description: Allow users to discover new recipes and recipe blogs. Recipes can be saved or deleted.
 
-YouTube Video Link: 
+YouTube Video Link: https://youtu.be/CqCKEtAoNAc
 
 APIs: spoonacular (https://spoonacular.com/food-api)
 
